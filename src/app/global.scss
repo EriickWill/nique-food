@@ -1,0 +1,22 @@
+@font-face {
+  font-family:BitterRose;
+  src: url("../../public/BitterRose.otf");
+}
+
+:root{
+  font-size: 62.5%;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  max-width: 1400px;
+  padding-inline:2% ;
+  margin-inline:auto ;
+}
+body{
+  background: #050505;
+}

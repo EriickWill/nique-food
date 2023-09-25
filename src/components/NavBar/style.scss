@@ -1,0 +1,48 @@
+nav{
+  position: absolute;
+  width: 52rem;
+  height: 6.8rem;
+  background: white;
+  bottom: 62px;
+  border-radius: 10rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    list-style: none;
+    gap: 2.5rem;
+    li{
+      .icon{
+        font-size: 2rem;
+        cursor: pointer;
+    }
+  }
+    a{
+      font-size: 1.6rem;
+      font-family: chillax;
+      color: #081212;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .book{
+      width: 16rem;
+      height: 4.6rem;
+      border-radius: 10rem;
+      background:#111111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a{
+        color:white;
+
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+main{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center center;
+    filter: brightness(50%);
+  }
+  section{
+    max-width: 68.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    color: white;
+    span{
+      font-family: BitterRose;
+      font-size: 8rem;
+      color:#FACE8D;
+    }
+    h1{
+      font-size: 16rem;
+      font-family: chillax;
+      font-weight: 500;
+    }
+    p{
+      font-size: 2.4rem;
+      font-family: chillax;
+      text-align: center;
+    }
+  }
+}
